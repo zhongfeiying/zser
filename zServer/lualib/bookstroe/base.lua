@@ -32,10 +32,11 @@ function footer_main()
 <div data-role="footer" class="ui-bar">
 	<div data-role="navbar">
 	<ul>
-		<li><a href="insurance_find.lp" data-icon="heart">三包服务</a></li>
-		<li><a href="designing.lp" data-icon="eye">平行进口车</a></li> 
-		<li><a href="designing.lp" data-icon="shop">二手车</a></li>
-		<li><a href="index_me.lp" data-icon="user">我</a></li>
+		<li><a href="book_buy.lp" data-icon="heart">买书</a></li>
+		<li><a href="book_sell.lp" data-icon="eye">卖书</a></li> 
+		
+		<li><a href="community.lp" data-icon="shop">社区</a></li>
+		<li><a href="me.lp" data-icon="user">我的</a></li>
 	</ul>
 	</div>
 <h4>辽ICP备 160001524</h4>
