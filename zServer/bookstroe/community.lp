@@ -16,16 +16,34 @@
 		<div data-role="page">
 			 <img src="images/car_2.jpg" width=100%/>
 	
-			<div data-role="content" >
-					<ol data-role="listview">
-					  <li><a href="login.lp">培训</a></li>
-					  <li><a href="#">运动</a></li>					
-					  <li><a href="#">托管</a></li>					
-					  <li><a href="#">关于</a></li>
-					</ol>
+	
 			
-			</div>
-			
+			  
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+			  <li>
+				<a href="#">
+				<img src="/images/s1.jpg">
+				<h2>培训</h2>
+				<p>经典培训学校。</p>
+				</a>
+			  </li>
+			  <li>
+				<a href="#">
+				<img src="/images/s1.jpg">
+				<h2>托管班</h2>
+				<p>学习，做作业，复习，解决家长后顾之忧</p>
+				</a>
+			  </li>
+			  <li>
+				<a href="#">
+				<img src="/images/s1.jpg">
+				<h2>运动</h2>
+				<p>锻炼身体。</p>
+				</a>
+			  </li>
+			</ul>
+		</div>
 			
 			<%=base.footer_main() %>		
 		</div>

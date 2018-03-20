@@ -25,7 +25,7 @@
 		
 			<br><br>
 			<form method="post" action="demoform.asp">
-				<div class="ui-field-contain">				
+				<div class="ui-field-contain">					
 					<div class="ui-block-a">
 						<input type="search" name="search" id="search" placeholder="请输入书名..." data-clear-btn="true"   maxlength="100" size="100">				
 					</div>					
@@ -48,24 +48,24 @@
 	  
 	  
 	   <div data-role="main" class="ui-content">
-    <h2>书本信息</h2>
-    <ul data-role="listview" data-inset="true">
-      <li>
-        <a href="#">
-        <img src="/images/s1.jpg">
-        <h2>豆豆兵去打仗</h2>
-        <p>魅力小学 10元。发布于3-20。</p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-        <img src="/images/s1.jpg">
-        <h2>豆豆兵去打仗</h2>
-        <p>魅力小学 10元。发布于3-20</p>
-        </a>
-      </li>
-    </ul>
-  </div>
+			<h2>书本信息</h2>
+			<ul data-role="listview" data-inset="true">
+			  <li>
+				<a href="#">
+				<img src="/images/s1.jpg">
+				<h2>豆豆兵去打仗</h2>
+				<p>魅力小学 10元。发布于3-20。</p>
+				</a>
+			  </li>
+			  <li>
+				<a href="#">
+				<img src="/images/s1.jpg">
+				<h2>豆豆兵去打仗</h2>
+				<p>魅力小学 10元。发布于3-20</p>
+				</a>
+			  </li>
+			</ul>
+		</div>
   
   
   

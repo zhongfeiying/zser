@@ -25,13 +25,30 @@
 					<ul data-role="listview" data-insert="true">
 						<li data-role="fieldcontain">
 							<label for="car_kind">书名:</label>
-								<input type="text" name="car_kind" id = "car_kind" required="required" value="">
+								<input type="text" name="car_kind" id = "car_kind" required="required" value=""value=""placeholder="必读书、选读书...">
 						</li>
 		
 						<li data-role="fieldcontain">
-							<label for="car_kind">价格（元）:</label>
-								<input type="text" name="car_kind" id = "car_kind" required="required" value="">
+							<label for="car_kind">原价（元）:</label>
+								<input type="number" name="car_kind" id = "car_kind" required="required" value=""placeholder="0.0...">
 						</li>		
+						<li data-role="fieldcontain">
+							<label for="car_kind">现价（元）:</label>
+								<input type="number" name="car_kind" id = "car_kind" required="required" value=""placeholder="0.0...">
+						</li>		
+						<li data-role="fieldcontain">
+							<label for="car_kind">新旧程度:</label>
+								 <select name="day" id="day">
+									 <option value="sat">全新</option>
+									 <option value="fri">九成新</option>
+									 <option value="thu">八成新</option>
+									 <option value="wed">七成新</option>
+									 <option value="tue">六成新</option>
+									 <option value="mon">五成新</option>
+									 <option value="sun">低于五成新</option>
+								</select>
+		
+						</li>
 						<li data-role="fieldcontain">
 							<label for="car_kind">所在区域:</label>
 								 <select name="day" id="day">
@@ -60,7 +77,7 @@
 						</li>							
 						<li data-role="fieldcontain">
 							<label for="car_kind">联系方式:</label>
-								<input type="text" name="car_kind" id = "car_kind" required="required" value="电话/微信/邮箱/QQ等">
+								<input type="text" name="car_kind" id = "car_kind" required="required" placeholder="电话/微信/邮箱/QQ...">
 							
 							
 						</li>							

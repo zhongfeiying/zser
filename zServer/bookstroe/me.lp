@@ -16,14 +16,38 @@
 		<div data-role="page">
 			 <img src="images/car_2.jpg" width=100%/>
 	
-			<div data-role="content" >
-					<ol data-role="listview">
-					  <li><a href="login.lp">登陆管理界面</a></li>
-					  <li><a href="#">清除缓存</a></li>					
-					  <li><a href="#">关于</a></li>
-					</ol>
-			
-			</div>
+	
+<ul data-role="listview" data-inset="true">
+  <li><a href="#"><img src="/images/s1.jpg" alt="USA" class="ui-li-icon">上架</a></li>
+  <li><a href="#"><img src="/images/s1.jpg" alt="Great Britain" class="ui-li-icon">下架</a></li>
+  <li><a href="#"><img src="/images/s1.jpg" alt="Finland" class="ui-li-icon">个人信息</a></li>
+</ul>
+
+	
+			  
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+			  <li>
+				<a href="#">
+				<img src="/images/s1.jpg">
+				<h2>上架</h2>
+				<p></p>
+				</a>
+			  </li>
+			  <li>
+				<a href="#">
+				<img src="/images/s1.jpg">
+				<h2>下架</h2>
+				</a>
+			  </li>
+			  <li>
+				<a href="#">
+				<img src="/images/s1.jpg">
+				<h2>个人信息</h2>
+				</a>
+			  </li>
+			</ul>
+		</div>
 			
 			
 			<%=base.footer_main() %>		
