@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <% 
-	_G.package.loaded["bookstroe.base"] = nil 
-	local base = _G.require("bookstroe.base") 
+	_G.package.loaded["bookstore.base"] = nil 
+	local base = _G.require("bookstore.base") 
 
-	_G.package.loaded["bookstroe.mgr_session"] = nil 
-	local mgr_session = _G.require("bookstroe.mgr_session") 
+	_G.package.loaded["bookstore.mgr_session"] = nil 
+	local mgr_session = _G.require("bookstore.mgr_session") 
 	
 	%>
 <html>
@@ -14,7 +14,7 @@
 	</head>
 	<body>
 		<div data-role="page">
-			 <img src="images/car_2.jpg" width=100%/>
+			 <img src="images/community.jpg" width=100%/>
 	
 	
 			

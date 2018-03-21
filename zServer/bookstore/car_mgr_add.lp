@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <% 
-	_G.package.loaded["project.base"] = nil 
-	local base = _G.require("project.base") 
+	_G.package.loaded["bookstore.base"] = nil 
+	local base = _G.require("bookstore.base") 
 
-	_G.package.loaded["project.mgr_session"] = nil 
-	local mgr_session = _G.require("project.mgr_session") 
+	_G.package.loaded["bookstore.mgr_session"] = nil 
+	local mgr_session = _G.require("bookstore.mgr_session") 
 	local trace_out = _G.trace_out   
 	local loadfile = _G.loadfile   
 	

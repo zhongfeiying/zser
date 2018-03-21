@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <% 
-	_G.package.loaded["bookstroe.base"] = nil 
-	local base = _G.require("bookstroe.base") 
+	_G.package.loaded["bookstore.base"] = nil 
+	local base = _G.require("bookstore.base") 
 
-	_G.package.loaded["bookstroe.mgr_session"] = nil 
-	local mgr_session = _G.require("bookstroe.mgr_session") 
+	_G.package.loaded["bookstore.mgr_session"] = nil 
+	local mgr_session = _G.require("bookstore.mgr_session") 
 
 	
 	%>
@@ -16,7 +16,7 @@
 			
 	</head>
 	<div data-role="page">
-			 <img src="images/car_2.jpg" width=100%/>	
+			 <img src="images/book_sell.jpg" width=100%/>	
 	
 		
 
@@ -82,9 +82,11 @@
 							
 						</li>							
 
-						
-						
-								
+				
+						<li data-role="fieldcontain">
+							<label for="file">图书图片:</label>
+							<input type="file" name="testfile"  id="picture_1"  /> 
+						</li>		
 								
 				
 						<li data-role="fieldcontain">
@@ -95,7 +97,18 @@
 					
 					
 				</form>
-						 							 
+						 			
+
+		<!-- 
+				<form action="gxy.lp" method="post" enctype="multipart/form-data" data-ajax="false"> 
+					
+				<li data-role="fieldcontain">
+					<label for="file">车图片1:</label>
+						<input type="file" name="testfile"  id="picture_1"  /> 
+				</li>
+						
+				</form> 
+																 -->	
 
 			<%=base.footer_main() %>		
 		</div>

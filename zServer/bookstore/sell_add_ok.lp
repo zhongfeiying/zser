@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <% 
-	_G.package.loaded["project.base"] = nil 
-	local base = _G.require("project.base") 
+	_G.package.loaded["bookstore.base"] = nil 
+	local base = _G.require("bookstore.base") 
 
 	_G.require("luacom") 
 	local lfs = _G.require("lfs") 

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<% _G.package.loaded["bookstroe.base"] = nil %>
-<% _G.package.loaded["bookstroe.mgr_session"] = nil %>
-<% local base = _G.require("bookstroe.base") %>
-<% local mgr_session = _G.require("bookstroe.mgr_session") %>
+<% _G.package.loaded["bookstore.base"] = nil %>
+<% _G.package.loaded["bookstore.mgr_session"] = nil %>
+<% local base = _G.require("bookstore.base") %>
+<% local mgr_session = _G.require("bookstore.mgr_session") %>
 <html>
 <head>
 <title>欢迎来到校辅书复用双赢社区!</title>

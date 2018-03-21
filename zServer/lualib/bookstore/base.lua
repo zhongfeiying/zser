@@ -36,7 +36,7 @@ function footer_main()
 		<li><a href="book_sell.lp" data-icon="eye">卖书</a></li> 
 		
 		<li><a href="community.lp" data-icon="shop">社区</a></li>
-		<li><a href="me.lp" data-icon="user">我的</a></li>
+		<li><a href="login.lp" data-icon="user">我的</a></li>
 	</ul>
 	</div>
 <h4>辽ICP备 160001524</h4>
