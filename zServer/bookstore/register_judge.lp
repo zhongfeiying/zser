@@ -5,7 +5,7 @@
 	_G.package.loaded["bookstore.mgr_login"] = nil 
 	local base = _G.require("bookstore.base") 
 	local mgr_session = _G.require("bookstore.mgr_session") 
-	local mgr_login = _G.require("bookstore.mgr_login") 
+	local mgr_register = _G.require("bookstore.mgr_register") 
 	local trace_out = _G.trace_out   
  %>
  
@@ -19,7 +19,8 @@
 		<div data-role="page" id="main">
 			 <img src="images/register_judge.jpg" width=100%/>	
 				<%
-					local res = mgr_login.register_user(user,pass,confirm_pass,province,city,area);					
+					--local res = mgr_login.register_user(user,pass,confirm_pass,province,city,area);					
+					mgr_register.register(user,pass,confirm_pass,province,city,area);
 					if(res == -1)then
 						trace_out("user isn't regist\n");
 				%>

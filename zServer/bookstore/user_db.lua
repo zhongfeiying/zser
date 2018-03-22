@@ -1,1 +1,13 @@
 _G.db = {};
+_G.db["admin"]= {};
+_G.db["admin"]["user"]= "admin";
+_G.db["admin"]["pwd"]= "11";
+_G.db["admin"]["province"]= "mon";
+_G.db["admin"]["city"]= "mon";
+_G.db["admin"]["area"]= "mon";
+_G.db["zz"]= {};
+_G.db["zz"]["user"]= "zz";
+_G.db["zz"]["pwd"]= "11";
+_G.db["zz"]["province"]= "mon";
+_G.db["zz"]["city"]= "mon";
+_G.db["zz"]["area"]= "mon";

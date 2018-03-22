@@ -45,7 +45,7 @@ function register_user(user,pwd,confirm_pwd,province,city,area)
 	local fun = loadfile(file_db);  
 	fun();
 	
-	if(_G.db[user]~=nil)then return -2; end--存在，修改用户名
+	if(_G.db[user]~=nil)then return -2 end--存在，修改用户名
 		
 	local file = "user_db.lua";			
 	local f = io.open(file ,"a");  
@@ -67,10 +67,10 @@ function register_user(user,pwd,confirm_pwd,province,city,area)
 	lfs.unlock(f,beginpos,1024);
 
 	f:close()  
-
-	
-	
-	
 	return true;
 end
 
+
+function test()
+	trace_out("ssssssssssssssssss\n")
+end
